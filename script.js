@@ -1,6 +1,7 @@
 function stringChop(str, size) {
   // your code here
 	let arr = []
+	if(str == "") return arr
 	while(str.length != 0){
 		let result = str.slice(0,size);  
 		arr.push(result);
